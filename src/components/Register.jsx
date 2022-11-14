@@ -6,6 +6,8 @@ function Register() {
     const [password, setPassword] = useState('')
 
 
+
+
   return (
     <>
     <div className="container mx-auto py-20 px-2">

@@ -1,16 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
 
-import { useSelector } from "react-redux";
+
 import Register from './components/Register';
 import Login from './components/Login';
+import Products from './components/Products';
 
 function App() {
-  const { isAuthenticated } = useSelector(state => state.auth)
+
   return (
     <>
-    <Register />
-    <Login />
+    {/* <Register /> */}
+    {/* <Login /> */}
+    <Products />
 
     </>
   );
